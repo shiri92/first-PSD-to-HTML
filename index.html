@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Blogin.</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+
+    <div class="screen" onclick="toggleMenu()"></div>
+    <header class="main-header">
+        <div class="header-container">
+            <a href="/" class="logo">Blogin<span style="color: #58c93a">.</span></a>
+            <nav id="main-nav" class="main-nav">
+                <button id="mobile-menu-button" class="mobile-menu-button" onclick="toggleMenu()">☰</button>
+                <ul class="clean-list">
+                    <li><a href="#">Journal</a>
+                        <div class="dropdown">
+                            <div>October 2016</div>
+                            <div>January 2017</div>
+                            <div>April 2017</div>
+                            <div>July 2017</div>
+                        </div>
+                    </li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header>
+
+    <!-- MODAL -->
+    <div class="modal">
+        <div class="modal-container">
+            <span class="btn-close-modal" onclick="toggleModal()">&times;</span>
+            <div class="modal-content">
+                <h3>Join us to get access to the latest stories!</h3>
+                <input type="email" placeholder="Enter your email address" required>
+                <button class="btn modal-btn-submit" type="submit" onclick="toggleModal()">Submit</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <main>
+        <div class="blog-container">
+            <div class="blog-item">
+                <img class="blog-image" src="img/1.png" alt="">
+                <div class="blog-text">
+                    <h1>Duis aute irure dolor in henderit in voluptate.</h1>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo
+                        doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        <br>
+                        <br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                        nulla pariatur...</p>
+                    <button class="blog-btn" onclick="toggleModal()">Continue Reading &nbsp;&nbsp;<img
+                            src="img/arrow-right-green.png" alt="img" class="arrow-green"></button>
+                </div>
+            </div>
+            <div class="blog-item ">
+                <img class="blog-image" src="img/2.png " alt=" ">
+                <div class="blog-text ">
+                    <h1>Duis aute irure dolor in henderit in voluptate.</h1>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo
+                        doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        <br>
+                        <br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                        nulla pariatur...</p>
+                    <button class="blog-btn" onclick="toggleModal()">Continue Reading &nbsp;&nbsp;<img
+                            src="img/arrow-right-green.png" alt="img" class="arrow-green"></button>
+                </div>
+            </div>
+            <div class="blog-item ">
+                <img class="blog-image " src="img/3.png " alt=" ">
+                <div class="blog-text ">
+                    <h1>Duis aute irure dolor in henderit in voluptate.</h1>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo
+                        doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        <br>
+                        <br> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                        nulla pariatur...</p>
+                    <button class="blog-btn" onclick="toggleModal()">Continue Reading &nbsp;&nbsp;<img
+                            src="img/arrow-right-green.png" alt="img" class="arrow-green"></button>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <div class="pages ">
+        <a href=" "><img src="img/arrow-left.png " alt="arrow-left ">&nbsp; Previous</a>
+        <a href=" ">Next &nbsp;<img src="img/arrow-right.png " alt="arrow-right "></a>
+    </div>
+
+    <footer>
+        <a class="logo " href="# ">Blogin<span style="color: #58c93a ">.</span></a>
+        <div class="more-info ">
+            <a href=" ">© 2014 Blogin.com </a>
+            <a href=" ">- All Rights Reserved</a>
+            <a href=" ">- Find more free Templates at</a>
+            <a href=" ">Pixelhint.com</a>
+        </div>
+        <div class="socials ">
+            <div class="facebook-container">
+                <a href="#"><img src="img/socials/left.png " alt="Facebook " class="facebook"></a>
+            </div>
+            <div class="twitter-container">
+                <a href="#"><img src="img/socials/middle-left.png " alt="Twitter " class="twitter"></a>
+            </div>
+            <div class="be-container">
+                <a href="#"><img src="img/socials/middle-right.png " alt="photo " class="be"></a>
+            </div>
+            <div class="orange-container">
+                <a href="#"><img src="img/socials/right.png " alt="photo " class="orange"></a>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
